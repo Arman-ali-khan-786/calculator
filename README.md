@@ -1,2 +1,2 @@
 # calculator
-A moblie calculator webapp
+A moblie ui calculator webapp

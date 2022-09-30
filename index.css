@@ -1,0 +1,123 @@
+/* add proper comments before styling */
+
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.container{
+    width: 600px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+/* css for mobile ui body */
+.outerbody{
+    width: 80%;
+    margin: 1.2rem auto;
+    background-color: rgb(39, 37, 37);
+    border: 5px solid silver;
+    padding: 12px;
+    border-radius: 2rem;
+    box-shadow: 3px 2px 12px black;
+}
+/* Css for front camera  */
+.cam{
+    max-width: 1.6rem;
+    min-height: 1.6rem;
+    border: 2px solid gold;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+.rem-cam{
+    max-width: 1.2rem;
+    min-height: 1.2rem;
+    border-radius: 50%;
+    margin: auto;
+    background-color: grey;
+}
+
+/* --------------------- */
+
+/* css for calculation area  */
+.cal-area{
+    margin: 0%;
+    min-height: 12rem;
+    text-align: right;
+    padding: 14px;
+    padding-bottom: 0rem;
+    font-size: 2.6rem;
+    color: white;
+    border-bottom: 2px solid gray;
+    
+}
+
+/* --------------- */
+
+/* css for buttons on calculator  */
+.cal-btns{
+    background-color: rgb(39, 37, 37);
+   display: flex;
+   flex-direction: row !important;
+   margin: 12px auto;
+  
+}
+button{
+    font-weight: 700;
+    border: none;
+    background-color: rgb(39, 37, 37);
+    color: white;
+}
+button:hover{
+    background-color: gray !important;
+    border-radius: 50%;
+}
+.left-area{
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: center;
+    
+}
+.left-btn{
+    width: 3em;
+    height: 3em;
+    font-size: 1.8rem;
+}
+.right-area{
+   display: flex;
+   flex-direction: column !important;
+   gap: 1.1rem;
+}
+.right-btn{
+    width: 3em;
+    height: 3em;
+    font-size: 1.6rem;
+    border-radius: 50%;
+    background-color: grey;
+    color: white;
+}
+.right-btn:hover{
+    background-color: rgb(76, 72, 72) !important;
+}
+.equal-btn{
+    background-color: rgb(68, 234, 23);
+}
+.equal-btn:hover{
+    background-color: rgb(55, 181, 21) !important;
+}
+
+/* ----------------------- */
+
+/* css for mobile ui footer  */
+.footer{
+    width: 80%;
+    margin: 12px auto auto auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ------------- */

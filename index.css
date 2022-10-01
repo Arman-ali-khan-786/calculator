@@ -64,6 +64,7 @@
    display: flex;
    flex-direction: row !important;
    margin: 12px auto;
+   cursor: pointer;
   
 }
 button{
@@ -71,6 +72,7 @@ button{
     border: none;
     background-color: rgb(39, 37, 37);
     color: white;
+    cursor: pointer;
 }
 button:hover{
     background-color: gray !important;
@@ -99,6 +101,7 @@ button:hover{
     width: 2em;
     height: 2em;
     font-size: 1.8rem;
+    cursor: pointer;
 }
 .right-area{
     margin-right: 1.5em;
@@ -113,12 +116,14 @@ button:hover{
     border-radius: 50%;
     background-color: grey;
     color: white;
+    cursor: pointer;
 }
 .right-btn:hover{
     background-color: rgb(76, 72, 72) !important;
 }
 .equal-btn{
     background-color: rgb(68, 234, 23);
+    cursor: pointer;
 }
 .equal-btn:hover{
     background-color: rgb(55, 181, 21) !important;

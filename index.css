@@ -115,9 +115,10 @@ button:hover{
 /* css for mobile ui footer  */
 .footer{
     width: 80%;
-    margin: 12px auto auto auto;
+    margin: 32px auto auto auto;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 /* ------------- */

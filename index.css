@@ -76,25 +76,39 @@ button:hover{
     background-color: gray !important;
     border-radius: 50%;
 }
+.scientific-area{
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: center;
+    margin: 12px auto;
+    gap: .3em;
+}
+.scientific-btn{
+    width: 2.5em;
+    height: 2.5em;
+    font-size: 1.8em;
+}
 .left-area{
     display: flex;
     flex-wrap: wrap !important;
     justify-content: center;
-    
 }
 .left-btn{
-    width: 3em;
-    height: 3em;
+    margin: auto .5em;
+    width: 2em;
+    height: 2em;
     font-size: 1.8rem;
 }
 .right-area{
+    margin-right: 1.5em;
    display: flex;
    flex-direction: column !important;
-   gap: 1.1rem;
+   gap: 0.5rem;
 }
 .right-btn{
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
     font-size: 1.6rem;
     border-radius: 50%;
     background-color: grey;

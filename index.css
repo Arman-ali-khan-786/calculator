@@ -4,12 +4,11 @@
     margin: 0%;
     box-sizing: border-box;
     scroll-behavior: smooth;
-}
+} 
 
 
 .container{
     width: 470px;
-    /* two buttons from scientific area come go to different line therefore increased width */
     margin: auto;
     padding: 1.2rem;
     padding-top: 0;
@@ -148,4 +147,32 @@ button:hover{
 /* ------------- */
 .notification-bar{
     height: 1.2rem;
+}
+
+/*  Result area  */
+.cal-area #result-str {
+    overflow: auto;
+    font-size: 1.2em;
+}
+.cal-area #answer {
+    overflow: auto;
+    font-size: 1em;
+}
+
+.cal-area #result-str::-webkit-scrollbar, #answer::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+    height: 10px;
+}
+.cal-area #result-str::-webkit-scrollbar-track, #answer::-webkit-scrollbar-track {
+    background: silver;        /* color of the tracking area */
+}
+.cal-area #result-str::-webkit-scrollbar-thumb, #answer::-webkit-scrollbar-thumb {
+    background-color: grey;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 1px solid darkgrey;  /* creates padding around scroll thumb */
+}
+
+#result-str .superscript{
+    vertical-align: super;
+    font-size: 2.2rem;
 }

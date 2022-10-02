@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
     <!-- font-awesome cdn  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- css file -->
@@ -54,45 +55,47 @@
        <!-- calculation area where numbers/operations 
        will be displayed and also their results -->
         <div class="cal-area">
+          <p id="result-str"><span class="normal">0</span><span class="superscript"></span></p>
+          <p id="answer">0</p>
           
         </div>
         <!-- calculator buttons -->
         <div class="scientific-area">
-          <button class="scientific-btn">sin</button>
-          <button class="scientific-btn">cos</button>
-          <button class="scientific-btn">tan</button>
-          <button class="scientific-btn">log</button>
-          <button class="scientific-btn">ln</button>
-          <button class="scientific-btn">&radic;</button>
-          <button class="scientific-btn">&#8731;</button>
-          <button class="scientific-btn">^</button>
-          <button class="scientific-btn">x<sup>2</sup></button>
-          <button class="scientific-btn">x<sup>3</sup></button>
+          <button id="sin" class="scientific-btn">sin</button>
+          <button id="cos" class="scientific-btn">cos</button>
+          <button id="tan" class="scientific-btn">tan</button>
+          <button id="log" class="scientific-btn">log</button>
+          <button id="ln" class="scientific-btn">ln</button>
+          <button id="sqrt" class="scientific-btn">&radic;</button>
+          <button id="cbrt" class="scientific-btn">&#8731;</button>
+          <button id="x-pow-y" class="scientific-btn">x<sup>y</sup></button>
+          <button id="squared" class="scientific-btn">x<sup>2</sup></button>
+          <button id="cubbed" class="scientific-btn">x<sup>3</sup></button>
         </div>
         <div class="cal-btns">
           <div class="left-area">
-            <button class="left-btn">C</button>
-            <button class="left-btn">%</button>
-            <button class="left-btn">del</button>
-            <button class="left-btn">7</button>
-            <button class="left-btn">8</button>
-            <button class="left-btn">9</button>
-            <button class="left-btn">4</button>
-            <button class="left-btn">5</button>
-            <button class="left-btn">6</button>
-            <button class="left-btn">1</button>
-            <button class="left-btn">2</button>
-            <button class="left-btn">3</button>
-            <button class="left-btn">00</button>
-            <button class="left-btn">0</button>
-            <button class="left-btn">.</button>
+            <button id="clear" class="left-btn">C</button>
+            <button id="percent" class="left-btn">%</button>
+            <button id="del" class="left-btn">del</button>
+            <button class="num left-btn" value="7" onclick="typed(value, '#result-str .normal')">7</button>
+            <button class="num left-btn" value="9" onclick="typed(value, '#result-str .normal')">9</button>
+            <button class="num left-btn" value="4" onclick="typed(value, '#result-str .normal')">4</button>
+            <button class="num left-btn" value="8" onclick="typed(value, '#result-str .normal')">8</button>
+            <button class="num left-btn" value="5" onclick="typed(value, '#result-str .normal')">5</button>
+            <button class="num left-btn" value="6" onclick="typed(value, '#result-str .normal')">6</button>
+            <button class="num left-btn" value="1" onclick="typed(value, '#result-str .normal')">1</button>
+            <button class="num left-btn" value="2" onclick="typed(value, '#result-str .normal')">2</button>
+            <button class="num left-btn" value="3" onclick="typed(value, '#result-str .normal')">3</button>
+            <button class="num left-btn" value="00" onclick="typed(value, '#result-str .normal')">00</button>
+            <button class="num left-btn" value="0" onclick="typed(value, '#result-str .normal')">0</button>
+            <button class="num left-btn" value="." onclick="typed(value, '#result-str .normal')">.</button>
           </div>
           <div class="right-area">
-            <button class="right-btn">÷</button>
-            <button class="right-btn">×</button>
-            <button class="right-btn">-</button>
-            <button class="right-btn">+</button>
-            <button class="right-btn equal-btn">=</button>
+            <button class="right-btn" value="/" onclick="typed(value, '#result-str .normal')"> ÷ </button>
+            <button class="right-btn" value="*" onclick="typed(value, '#result-str .normal')"> × </button>
+            <button class="right-btn" value="-" onclick="typed(value, '#result-str .normal')"> - </button>
+            <button class="right-btn" value="+" onclick="typed(value, '#result-str .normal')"> + </button>
+            <button id="equal-btn" class="right-btn"> = </button>
           </div>
         </div>
         <!-- calculator footer  -->

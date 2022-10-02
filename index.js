@@ -143,23 +143,19 @@ window.onload = function() {
     }
     document.getElementById("x-pow-y").onclick = function() {
         ++timesClicked
-        // let x_pow_y = document.getElementsByTagName("span")
         const normalElement = document.querySelector(normal)
         const superElement = document.querySelector(superscript)
         if(timesClicked == 1) {
-            // x_pow_y[2].innerHTML = '0'
             superElement.innerHTML = '0'
             normalElement.style.border = "1px solid white"
         } else if(timesClicked == 2) {
             normalText = normalElement.innerHTML
-            // normalText = x_pow_y[1].innerHTML
             isSuper = true
             normalElement.style.border = "0px"
             superElement.style.border = "1px solid white"
         } else if(timesClicked == 3) {
             isSuper = false
             superscriptText = superElement.innerHTML
-            // superscriptText = x_pow_y[2].innerHTML
             superElement.style.border = "0px"
             ans = Math.pow(normalText, superscriptText)
             displayAnswer(ans)

@@ -9,6 +9,7 @@
 
 .container{
     width: 470px;
+    /* two buttons from scientific area come go to different line therefore increased width */
     margin: auto;
     padding: 1.2rem;
     padding-top: 0;
@@ -91,7 +92,7 @@ button:hover{
 .scientific-btn{
     width: 2.5em;
     height: 2.5em;
-    font-size: 1.8em;
+    font-size: 1.4em;
 }
 .left-area{
     display: flex;
@@ -100,7 +101,7 @@ button:hover{
 
 }
 .left-btn{
-    margin: auto .5em;
+    margin: auto .3em;
     width: 2em;
     height: 2em;
 
@@ -108,7 +109,7 @@ button:hover{
     cursor: pointer;
 }
 .right-area{
-    margin-right: 1.5em;
+    margin-right: 1.1em;
    display: flex;
    flex-direction: column !important;
    gap: 0.5rem;

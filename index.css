@@ -149,6 +149,7 @@ button:hover{
     height: 1.2rem;
 }
 
+
 /*  Result area  */
 .cal-area #result-str {
     overflow: auto;
@@ -176,3 +177,28 @@ button:hover{
     vertical-align: super;
     font-size: 2.2rem;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 100%;
+        padding: 0;
+    }
+    .right-btn{
+        font-size: 1.2rem;
+    }
+    .left-btn{
+        font-size: 1.2rem;
+    }
+    .scientific-btn{
+        font-size: 1.2rem;
+    }
+    .outerbody{
+        width: 100%;
+    }
+    .footer{
+        margin-top: 2rem;
+        width: 100%;
+    }
+  }
+

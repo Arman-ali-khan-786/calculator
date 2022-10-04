@@ -1,0 +1,73 @@
+.card {
+    position: relative;
+    text-align: center;
+    background-color: whitesmoke;
+    width: 45%;
+    height: 55%;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.header-image {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 5%;
+}
+
+.pic {
+    width: 40%;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 60px;
+
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    bottom: 7%;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.fa-brands {
+    padding: 5% 3% 0%;
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 90%;
+    }
+
+    .pic {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 600px) {
+    .card {
+        width: 70%;
+    }
+
+    .pic {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 800px) {
+    .card {
+        width: 50%;
+    }
+
+    .pic {
+        width: 55%;
+    }
+}

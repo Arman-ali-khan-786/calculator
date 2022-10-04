@@ -13,6 +13,7 @@
     padding: 1.2rem;
     padding-top: 0;
     text-align: center;
+    scale: 0.9;
 }
 
 
@@ -179,26 +180,16 @@ button:hover{
 }
 
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
     .container{
-        width: 100%;
-        padding: 0;
-    }
-    .right-btn{
-        font-size: 1.2rem;
-    }
-    .left-btn{
-        font-size: 1.2rem;
-    }
-    .scientific-btn{
-        font-size: 1.2rem;
-    }
-    .outerbody{
-        width: 100%;
-    }
-    .footer{
-        margin-top: 2rem;
-        width: 100%;
+        scale: 0.8;
+        translate: -7.5% -5%;
     }
   }
+@media (max-width: 410px) {
+    .container{
+        scale: .7;
+        translate: -12% -7%;
+    }
+}
 

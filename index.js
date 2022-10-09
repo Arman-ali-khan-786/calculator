@@ -83,7 +83,6 @@ function reset() {
 
 function displaySavedAnswer() {
   const answer = localStorage.getItem("answer");
-
   if (answer) {
     document.getElementById("savedAnswer").innerHTML = answer;
   }
@@ -94,6 +93,7 @@ function save(ans) {
 }
 
 window.onload = function () {
+  /* display previous answer at start */
   displaySavedAnswer();
   /* Clear */
   document.getElementById("clear").onclick = function () {

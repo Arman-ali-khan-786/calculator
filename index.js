@@ -103,6 +103,7 @@ window.onload = function () {
     reset();
   };
   /* del */
+  //already done thing
   document.getElementById("del").onclick = function () {
     if (isSuper) element = superscript;
     else element = normal;

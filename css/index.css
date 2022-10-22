@@ -1,206 +1,276 @@
 /* add proper comments before styling */
 
-* {
-  margin: 0%;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+*{
+   margin: 0%;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
 }
 
-.container {
-  width: 470px;
-  margin: auto;
-  padding: 1.2rem;
-  padding-top: 0;
-  text-align: center;
+
+.container{
+   width: 470px;
+   margin: auto;
+   padding: 1.2rem;
+   padding-top: 0;
+   text-align: center;
 }
+
 
 /* css for mobile ui body */
-.outerbody {
-  width: 80%;
-  margin: 1.2rem auto;
-  background-color: rgb(39, 37, 37);
-  border: 5px solid silver;
-  padding: 12px;
-  border-radius: 2rem;
-  box-shadow: 3px 2px 12px black;
+.outerbody{
+   width: 80%;
+   margin: 1.2rem auto;
+   background-color: rgb(39, 37, 37);
+   border: 5px solid silver;
+   padding: 12px;
+   border-radius: 2rem;
+   box-shadow: 3px 2px 12px black;
 }
 /* Css for front camera  */
-.cam {
-  max-width: 1.6rem;
-  min-height: 1.6rem;
-  border: 2px solid gold;
-  border-radius: 50%;
-  background-color: aliceblue;
+.cam{
+   max-width: 1.6rem;
+   min-height: 1.6rem;
+   border: 2px solid gold;
+   border-radius: 50%;
+   background-color: aliceblue;
 }
-.rem-cam {
-  max-width: 1.2rem;
-  min-height: 1.2rem;
-  border-radius: 50%;
-  margin: auto;
-  background-color: grey;
+.rem-cam{
+   max-width: 1.2rem;
+   min-height: 1.2rem;
+   border-radius: 50%;
+   margin: auto;
+   background-color: grey;
 }
 
 /* --------------------- */
 
 /* css for calculation area  */
-.cal-area {
-  margin: 0%;
-  min-height: 10rem;
-  text-align: right;
-  padding: 14px;
-  padding-bottom: 0rem;
-  font-size: 2.6rem;
-  color: white;
-  border-bottom: 2px solid gray;
+.cal-area{
+   margin: 0%;
+   min-height: 10rem;
+   text-align: right;
+   padding: 14px;
+   padding-bottom: 0rem;
+   font-size: 2.6rem;
+   color: white;
+   border-bottom: 2px solid gray;
+
 }
 
 /* --------------- */
 
 /* css for buttons on calculator  */
-.cal-btns {
-  background-color: rgb(39, 37, 37);
+.cal-btns{
+   background-color: rgb(39, 37, 37);
   display: flex;
   flex-direction: row !important;
   margin: 12px auto;
   cursor: pointer;
-}
-button {
-  font-weight: 700;
-  border: none;
-  background-color: rgb(39, 37, 37);
-  color: white;
-  cursor: pointer;
-}
-button:hover {
-  background-color: gray !important;
-  border-radius: 50%;
-}
-.scientific-area {
-  display: flex;
-  flex-direction: row !important;
-  flex-wrap: wrap !important;
-  justify-content: center;
-  margin: 12px auto;
-  gap: 0.3em;
-}
-.scientific-btn {
-  width: 2.5em;
-  height: 2.5em;
-  font-size: 1.4em;
-}
-.left-area {
-  display: flex;
-  flex-wrap: wrap !important;
-  justify-content: center;
-}
-.left-btn {
-  margin: auto 0.3em;
-  width: 2em;
-  height: 2em;
 
-  font-size: 1.8rem;
-  cursor: pointer;
 }
-.right-area {
-  margin-right: 1.1em;
+button{
+   font-weight: 700;
+   border: none;
+   background-color: rgb(39, 37, 37);
+   color: white;
+   cursor: pointer;
+}
+button:hover{
+   background-color: gray !important;
+   border-radius: 50%;
+}
+.scientific-area{
+   display: flex;
+   flex-direction: row !important;
+   flex-wrap: wrap !important;
+   justify-content: center;
+   margin: 12px auto;
+   gap: .3em;
+}
+.scientific-btn{
+   width: 2.5em;
+   height: 2.5em;
+   font-size: 1.4em;
+}
+.left-area{
+   display: flex;
+   flex-wrap: wrap !important;
+   justify-content: center;
+
+}
+.left-btn{
+   margin: auto .3em;
+   width: 2em;
+   height: 2em;
+
+   font-size: 1.8rem;
+   cursor: pointer;
+}
+.right-area{
+   margin-right: 1.1em;
   display: flex;
   flex-direction: column !important;
   gap: 0.5rem;
 }
-.right-btn {
-  width: 2em;
-  height: 2em;
-  font-size: 1.6rem;
-  border-radius: 50%;
-  background-color: grey;
-  color: white;
-  cursor: pointer;
+.right-btn{
+
+   width: 2em;
+   height: 2em;
+   font-size: 1.6rem;
+   border-radius: 50%;
+   background-color: grey;
+   color: white;
+   cursor: pointer;
 }
-.right-btn:hover {
-  background-color: rgb(76, 72, 72) !important;
+.right-btn:hover{
+   background-color: rgb(76, 72, 72) !important;
 }
-.equal-btn {
-  background-color: rgb(68, 234, 23);
-  cursor: pointer;
+.equal-btn{
+   background-color: rgb(68, 234, 23);
+   cursor: pointer;
 }
-.equal-btn:hover {
-  background-color: rgb(55, 181, 21) !important;
+.equal-btn:hover{
+   background-color: rgb(55, 181, 21) !important;
 }
 
 /* ----------------------- */
 
 /* css for mobile ui footer  */
-.footer {
-  width: 80%;
-  margin: 12px auto auto auto;
-  display: flex;
-  justify-content: space-around;
+.footer{
+   width: 80%;
+   margin: 12px auto auto auto;
+   display: flex;
+   justify-content: space-around;
 }
 
 /* ------------- */
-.notification-bar {
-  height: 1.2rem;
+.notification-bar{
+   height: 1.2rem;
 }
+
 
 /*  Result area  */
 .cal-area #result-str {
-  overflow: auto;
-  font-size: 1.2em;
-}
-.cal-area .answer-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.cal-area .answer-row #savedAnswer {
-  font-size: 25px;
-  opacity: 0.8;
+   overflow: auto;
+   font-size: 1.2em;
 }
 .cal-area #answer {
-  overflow: auto;
-  font-size: 1em;
+   overflow: auto;
+   font-size: 1em;
 }
 
-.cal-area #result-str::-webkit-scrollbar,
-#answer::-webkit-scrollbar {
-  width: 5px; /* width of the entire scrollbar */
-  height: 10px;
+.cal-area #result-str::-webkit-scrollbar, #answer::-webkit-scrollbar {
+   width: 5px;               /* width of the entire scrollbar */
+   height: 10px;
 }
-.cal-area #result-str::-webkit-scrollbar-track,
-#answer::-webkit-scrollbar-track {
-  background: silver; /* color of the tracking area */
+.cal-area #result-str::-webkit-scrollbar-track, #answer::-webkit-scrollbar-track {
+   background: silver;        /* color of the tracking area */
 }
-.cal-area #result-str::-webkit-scrollbar-thumb,
-#answer::-webkit-scrollbar-thumb {
-  background-color: grey; /* color of the scroll thumb */
-  border-radius: 20px; /* roundness of the scroll thumb */
-  border: 1px solid darkgrey; /* creates padding around scroll thumb */
+.cal-area #result-str::-webkit-scrollbar-thumb, #answer::-webkit-scrollbar-thumb {
+   background-color: grey;    /* color of the scroll thumb */
+   border-radius: 20px;       /* roundness of the scroll thumb */
+   border: 1px solid darkgrey;  /* creates padding around scroll thumb */
 }
 
-#result-str .superscript {
-  vertical-align: super;
-  font-size: 2.2rem;
+#result-str .superscript{
+   vertical-align: super;
+   font-size: 2.2rem;
 }
+
 
 @media only screen and (max-width: 600px) {
-  .container {
-    width: 100%;
-    padding: 0;
-  }
-  .right-btn {
-    font-size: 1.2rem;
-  }
-  .left-btn {
-    font-size: 1.2rem;
-  }
-  .scientific-btn {
-    font-size: 1.2rem;
-  }
-  .outerbody {
-    width: 100%;
-  }
-  .footer {
-    margin-top: 2rem;
-    width: 100%;
-  }
+   .container{
+       width: 100%;
+       padding: 0;
+   }
+   .right-btn{
+       font-size: 1.2rem;
+   }
+   .left-btn{
+       font-size: 1.2rem;
+   }
+   .scientific-btn{
+       font-size: 1.2rem;
+   }
+   .outerbody{
+       width: 100%;
+   }
+   .footer{
+       margin-top: 2rem;
+       width: 100%;
+   }
+ }
+/* Footer styling*/
+
+ footer{
+   --bs-bg-opacity: 1;
+   background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+    height: auto;
+   width: auto;
+   font-family: cursive;
+   padding-top: 40px;
+   color: white;
+
+ }
+
+ .footer-content{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction:column;
+   text-align: center;
+   }
+
+.socials{
+ list-style: none;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: auto;
+
+}
+
+.socials li{
+ margin: 0 10px;
+
+}
+
+.socials a{
+ text-decoration: none;
+ color: #fff;
+}
+
+.socials a i{
+ font-size: 1.1rem;
+
+}
+
+.socials a:hover{
+ color: aqua;
+
+}
+
+.footer-bottom{
+ --bs-bg-opacity: 1;
+ background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+ width: 100vw;
+ padding: 20px 0;
+ text-align: center;
+
+}
+
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+
+}
+
+.footer-bottom span{
+ text-transform: uppercase;
+ color: gold;
+ opacity: .4;
+ font-weight: 200;
+ text-decoration: underline;
+
 }

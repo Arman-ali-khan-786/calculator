@@ -4,12 +4,14 @@
   margin: 0%;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  padding: 0;
+  transition: .5s;
 }
 
 .container {
   width: 470px;
   margin: auto;
-  padding: 1.2rem;
+  padding: .75rem;
   padding-top: 0;
   text-align: center;
 }
@@ -17,7 +19,7 @@
 /* css for mobile ui body */
 .outerbody {
   width: 80%;
-  margin: 1.2rem auto;
+  margin: .1rem auto;
   background-color: rgb(39, 37, 37);
   border: 5px solid silver;
   padding: 12px;
@@ -45,13 +47,14 @@
 /* css for calculation area  */
 .cal-area {
   margin: 0%;
-  min-height: 10rem;
+  height: 10rem;
   text-align: right;
-  padding: 14px;
-  padding-bottom: 0rem;
+  padding: .75rem;
+  padding-bottom: 8rem;
   font-size: 2.6rem;
   color: white;
   border-bottom: 2px solid gray;
+  border-radius: .5rem
 }
 
 /* --------------- */
@@ -64,6 +67,7 @@
   margin: 12px auto;
   cursor: pointer;
 }
+
 button {
   font-weight: 700;
   border: none;
@@ -83,34 +87,50 @@ button:hover {
   margin: 12px auto;
   gap: 0.3em;
 }
+.scientific-area div{
+	width: 100%;
+	padding: .25rem;
+	display: flex;
+	justify-content: space-evenly
+}
 .scientific-btn {
   width: 2.5em;
   height: 2.5em;
+  border-radius: 50%;
   font-size: 1.4em;
+  background: #EEE;
+  color: #333;
 }
 .left-area {
   display: flex;
-  flex-wrap: wrap !important;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 .left-btn {
-  margin: auto 0.3em;
-  width: 2em;
-  height: 2em;
-
+  margin: .5rem;
+  margin-bottom: 0;
+  width: 4rem;
+  height: 4rem;
   font-size: 1.8rem;
   cursor: pointer;
+  border-radius: 50%;
+  text-transform: uppercase;
+  background: #DDD;
+  color: #333;
 }
 .right-area {
-  margin-right: 1.1em;
   display: flex;
   flex-direction: column !important;
-  gap: 0.5rem;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: .75rem
 }
 .right-btn {
-  width: 2em;
-  height: 2em;
-  font-size: 1.6rem;
+  width: 4rem;
+  height: 4rem;
+  margin: .5rem 0;
+  font-size: 1.8rem;
   border-radius: 50%;
   background-color: grey;
   color: white;
@@ -188,10 +208,12 @@ button:hover {
     padding: 0;
   }
   .right-btn {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .left-btn {
     font-size: 1.2rem;
+    width: 4rem;
+    height: 4rem;
   }
   .scientific-btn {
     font-size: 1.2rem;

@@ -204,3 +204,29 @@ button:hover {
     width: 100%;
   }
 }
+
+/* --------------------- */
+
+/* Add this CSS to your existing stylesheet */
+.mode-toggle {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+  align-items: center;
+}
+
+.mode-toggle label {
+  margin-right: 10px;
+}
+
+/* Add styles for dark mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Add styles for light mode */
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}

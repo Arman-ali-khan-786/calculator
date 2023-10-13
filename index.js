@@ -174,13 +174,12 @@ window.onload = function () {
     pow("cubbed");
   };
 
+  /* dark mode */
   if (localStorage.getItem("dark-mode") == "true" && localStorage.getItem("dark-mode") != null) {
     document.querySelector("body").classList.add("dark-mode");
     document.querySelector("#icon-dark-mode").classList.remove("fa-moon");
     document.querySelector("#icon-dark-mode").classList.add("fa-sun");
   }
-
-  /* dark mode */
   const darkModeToggle = document.querySelector("#dark-mode-toggle");
   const body = document.querySelector("body");
   const DMTogglerIcon = document.querySelector("#icon-dark-mode");

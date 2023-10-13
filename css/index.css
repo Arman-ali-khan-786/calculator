@@ -207,7 +207,7 @@ button:hover {
 
 /* --------------------- */
 
-/* Add this CSS to your existing stylesheet */
+/* Base Toggler */
 .mode-toggle {
   display: flex;
   justify-content: flex-end;
@@ -219,13 +219,13 @@ button:hover {
   margin-right: 10px;
 }
 
-/* Add styles for dark mode */
+/* Styles for dark mode */
 body.dark-mode {
   background-color: #121212;
   color: #ffffff;
 }
 
-/* Add styles for light mode */
+/* Styles for light mode */
 body.light-mode {
   background-color: #ffffff;
   color: #000000;

@@ -230,3 +230,151 @@ body.light-mode {
   background-color: #ffffff;
   color: #000000;
 }
+
+
+/* Dark mode styles for calculator and mobile UI */
+body.dark-mode .container,
+body.dark-mode .outerbody,
+body.dark-mode .cal-area,
+body.dark-mode .cal-btns,
+body.dark-mode button {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode button {
+  background-color: transparent;
+}
+
+body.dark-mode button:hover {
+  background-color: #333333 !important;
+}
+
+body.dark-mode .equal-btn {
+  background-color: #68b817;
+}
+
+body.dark-mode .equal-btn:hover {
+  background-color: #55a614 !important;
+}
+
+body.dark-mode .right-btn {
+  background-color: #333333;
+}
+
+body.dark-mode .right-btn:hover {
+  background-color: #444444 !important;
+}
+
+/* Light mode styles for calculator and mobile UI */
+body.light-mode .container,
+body.light-mode .outerbody,
+body.light-mode .cal-area,
+body.light-mode .cal-btns {
+  background-color: rgb(255, 255, 255);
+  color: #171717;
+}
+
+body.light-mode .cal-btns {
+  background-color: #ffffff;
+  color: #171717;
+}
+
+body.light-mode button:hover {
+  background-color: #f5f5f5 !important;
+}
+
+body.light-mode #dark-mode-toggle:hover {
+  background-color: gray !important;
+}
+
+body.light-mode .equal-btn {
+  background-color: rgb(68, 234, 23);
+}
+
+body.light-mode .equal-btn:hover {
+  background-color: rgb(55, 181, 21) !important;
+}
+
+body.light-mode .right-btn {
+  background-color: #dedede;
+  color: black;
+}
+
+body.light-mode .num {
+  color: black;
+  background-color: #ffffff;
+  border-radius: 90px;
+}
+
+body.dark-mode .num {
+  color: white;
+  background-color: #121212;
+  border-radius: 90px;
+}
+
+body.dark-mode .num:hover {
+  background-color: #333333;
+  color: white;
+  border-radius: 90px;
+}
+
+body.light-mode .num:hover {
+  background-color: #ededed;
+  color: black;
+  border-radius: 90px;
+}
+
+body.light-mode .scientific-btn {
+  color: black;
+  background-color: #ffffff;
+  border-radius: 90px;
+}
+
+body.light-mode .scientific-btn:hover {
+  background-color: #ededed;
+  color: black;
+  border-radius: 90px;
+}
+
+body.dark-mode .scientific-btn {
+  color: white;
+  background-color: #121212;
+  border-radius: 90px;
+}
+
+body.dark-mode .scientific-btn:hover {
+  background-color: #333333;
+  color: white;
+  border-radius: 90px;
+}
+
+body.light-mode .left-btn {
+  color: black;
+  background-color: #ffffff;
+  border-radius: 90px;
+}
+
+body.light-mode .left-btn:hover {
+  background-color: #ededed;
+  color: black;
+  border-radius: 90px;
+}
+
+body.dark-mode .left-btn {
+  color: white;
+  background-color: #121212;
+  border-radius: 90px;
+}
+
+body.dark-mode .left-btn:hover {
+  background-color: #333333;
+  color: white;
+  border-radius: 90px;
+}
+
+body.light-mode .right-btn:hover {
+  background-color: rgb(179, 178, 178) !important;
+}
+
+

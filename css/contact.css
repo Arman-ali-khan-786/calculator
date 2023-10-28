@@ -71,3 +71,63 @@ a:hover {
         width: 55%;
     }
 }
+
+/* --------------------- */
+
+/* Base Toggler */
+.mode-toggle {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+  align-items: center;
+}
+
+button {
+  font-weight: 700;
+  border: none;
+  background-color: rgb(39, 37, 37);
+  color: white;
+  cursor: pointer;
+}
+
+.mode-toggle label {
+  margin-right: 10px;
+}
+
+/* Styles for dark mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.card.dark-mode {
+  background-color: #363636;
+  color: #ffffff;
+}
+
+.card.light-mode {
+  background-color: white;
+  color: #000000;
+}
+
+/* Styles for light mode */
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+a.light-mode {
+  color: #000000;
+}  
+
+a.dark-mode {
+  color: #ffffff;
+}
+
+a.dark-mode:hover {
+  color: #ffffff;
+}
+
+a.light-mode:hover {
+  color: #000000;
+}
